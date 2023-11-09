@@ -1,0 +1,22 @@
+@use './fonts.scss';
+
+:root {
+	--fg-color: black;
+	--bg-color: white;
+
+	--primary-color: #757147;
+	--secondary-color: #a68a64;
+	--background-color: #e4cfb2;
+
+	--font-family: 'Nunito', sans-serif;
+	--font-family-special: 'Lora', serif;
+
+
+
+}
+
+body {
+
+	font-family: var(--font-family);
+	font-size: 18px;
+}
