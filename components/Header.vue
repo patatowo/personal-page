@@ -69,7 +69,7 @@
 					height: 2px;
 					bottom: 0;
 					left: 0;
-					background-color: var(--primary-color);
+					background-color: #aaa574;
 					transform-origin: bottom right;
 					transition: transform 0.25s ease-out;
 				}

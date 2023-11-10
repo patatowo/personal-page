@@ -5,7 +5,7 @@ export default {
 		return {
 			typeValue: "",
 			typeStatus: false,
-			displayTextArray: ["web developer", "graphic designer", "game developer"],
+			displayTextArray: ["hobby web developer", "software egineering student", "hobby graphic designer", "hobby game developer"],
 			typingSpeed: 100,
 			erasingSpeed: 100,
 			newTextDelay: 2000,
@@ -62,7 +62,7 @@ export default {
 			</div>
 			<div class="container">
 				<h2>
-					I'm a hobby
+					I'm a
 					<span class="typed-text">{{ typeValue }}</span>
 					<span class="blinking-cursor">|</span>
 					<span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
@@ -86,14 +86,14 @@ h2 {
 	font-weight: normal;
 
 	span.typed-text {
-		color: #757147;
+		color: var(--primary-color);
 	}
 }
 
 // Cursor blinking CSS Starts...
 .blinking-cursor {
 	font-size: 1em;
-	color: #757147;
+	color: var(--primary-color);
 	-webkit-animation: 1s blink step-end infinite;
 	-moz-animation: 1s blink step-end infinite;
 	-ms-animation: 1s blink step-end infinite;
@@ -109,7 +109,7 @@ h2 {
 	}
 
 	50% {
-		color: #757147;
+		color: var(--primary-color);
 	}
 }
 
@@ -121,7 +121,7 @@ h2 {
 	}
 
 	50% {
-		color: #757147;
+		color: var(--primary-color);
 	}
 }
 
@@ -133,7 +133,7 @@ h2 {
 	}
 
 	50% {
-		color: #757147;
+		color: var(--primary-color);
 	}
 }
 
@@ -145,7 +145,7 @@ h2 {
 	}
 
 	50% {
-		color: #757147;
+		color: var(--primary-color);
 	}
 }
 
@@ -157,14 +157,13 @@ h2 {
 	}
 
 	50% {
-		color: #757147;
+		color: var(--primary-color);
 	}
 }
 
 .page--home {
 	padding-left: 2em;
 	padding-right: 2em;
-	background-color: var(--primary-color);
 }
 
 .introduction {
@@ -174,7 +173,6 @@ h2 {
 
 	h1 {
 		font-family: var(--font-family-special);
-		color: var(--primary-color);
 		font-size: 5em;
 		margin-bottom: 0;
 		font-weight: normal;
@@ -188,12 +186,11 @@ h2 {
 		gap: 1em;
 
 		.lysia {
-			color: #757147;
+			color: var(--primary-color);
 		}
 
 		h2 {
 			font-family: var(--font-family-special);
-			color: var(--primary-color);
 			font-size: 4em;
 			margin-top: 0;
 		}
@@ -204,7 +201,7 @@ h2 {
 		h2 {
 			font-family: var(--font-family-special);
 			color: var(--primary-color);
-			font-size: 3em;
+			font-size: 2em;
 			margin-top: 0;
 		}
 	}

@@ -6,7 +6,7 @@
 
 	--primary-color: #757147;
 	--secondary-color: #a68a64;
-	--background-color: #e4cfb2;
+	--background-color: #f8e8d1;
 
 	--font-family: 'Nunito', sans-serif;
 	--font-family-special: 'Lora', serif;
@@ -19,4 +19,5 @@ body {
 
 	font-family: var(--font-family);
 	font-size: 18px;
+	background-color: var(--background-color);
 }
