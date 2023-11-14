@@ -5,7 +5,7 @@ export default {
 		return {
 			typeValue: "",
 			typeStatus: false,
-			displayTextArray: ["hobby web developer", "software egineering student", "hobby graphic designer", "hobby game developer"],
+			displayTextArray: ["hobby web developer", "software engineering student", "hobby graphic designer", "hobby game developer"],
 			typingSpeed: 100,
 			erasingSpeed: 100,
 			newTextDelay: 2000,
@@ -72,7 +72,7 @@ export default {
 	</main>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .container {
 	display: flex;
 	justify-content: left;
@@ -175,7 +175,6 @@ h2 {
 		font-family: var(--font-family-special);
 		font-size: 5em;
 		margin-bottom: 0;
-		font-weight: normal;
 	}
 
 
