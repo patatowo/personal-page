@@ -1,13 +1,17 @@
 <template>
 	<main class="page page--about">
-		<div class="about-me">
-			<h1>
-				Know who I am
-			</h1>
-			<P>I'm Silvia from Spain. I'm a first year software engineering student at the UCLM and I'm a hobby web developer,
-				graphic designer and indie game developer on my free time. </P>
+		<div class="idk">
+			<div class="about-me">
+				<h1>
+					Know who I am
+				</h1>
+				<P>I'm Silvia from Spain. I'm a first year software engineering student at the UCLM and I'm a hobby web developer,
+					graphic designer and indie game developer on my free time. </P>
 
+			</div>
+			<img src="\images\Cup-o-coffee-simple.svg.png">
 		</div>
+
 		<div class="skills">
 			<h1>skills</h1>
 			<div class="row">
@@ -41,29 +45,40 @@
 </template>
 
 <style lang="scss">
-// body {
-// 	background-color: var(--background-color);
-// }
-
 .page--about {
 	padding-left: 2em;
 
-	.about-me {
-		max-width: 29em;
-		text-align: justify;
-		padding-left: 3em;
+	.idk {
+		display: flex;
+		gap: 9em;
 		padding-top: 5em;
-		padding-bottom: 5em;
 
-		h1 {
-			font-size: 4em;
-			font-family: var(--font-family-special);
+
+		.about-me {
+			max-width: 29em;
+			text-align: justify;
+			padding-left: 3em;
+			padding-bottom: 5em;
+
+			h1 {
+				font-size: 4em;
+				font-family: var(--font-family-special);
+			}
+
+			p {
+				font-size: 1.5em;
+			}
 		}
 
-		p {
-			font-size: 1.5em;
+		img {
+			width: 30em;
+			height: 30em;
+
 		}
+
 	}
+
+
 
 	.skills {
 		padding-top: 3em;
@@ -75,8 +90,7 @@
 		}
 
 		.row {
-			// border-radius: 15px;
-			// background-color: var(--secondary-color);
+
 			display: flex;
 			flex-wrap: wrap;
 			max-width: 1280px;
@@ -86,7 +100,6 @@
 			padding-left: 0;
 			padding-bottom: 3em;
 			gap: 2em;
-			// background-color: var(--secondary-color);
 
 			.item {
 				border-radius: 15px;
