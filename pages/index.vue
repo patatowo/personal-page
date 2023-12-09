@@ -86,14 +86,14 @@ h2 {
 	font-weight: normal;
 
 	span.typed-text {
-		color: var(--primary-color);
+		color: var(--special-color);
 	}
 }
 
 // Cursor blinking CSS Starts...
 .blinking-cursor {
 	font-size: 1em;
-	color: var(--primary-color);
+	color: var(--special-color);
 	-webkit-animation: 1s blink step-end infinite;
 	-moz-animation: 1s blink step-end infinite;
 	-ms-animation: 1s blink step-end infinite;
@@ -109,7 +109,7 @@ h2 {
 	}
 
 	50% {
-		color: var(--primary-color);
+		color: var(--special-color);
 	}
 }
 
@@ -121,7 +121,7 @@ h2 {
 	}
 
 	50% {
-		color: var(--primary-color);
+		color: var(--special-color);
 	}
 }
 
@@ -133,7 +133,7 @@ h2 {
 	}
 
 	50% {
-		color: var(--primary-color);
+		color: var(--special-color);
 	}
 }
 
@@ -145,7 +145,7 @@ h2 {
 	}
 
 	50% {
-		color: var(--primary-color);
+		color: var(--special-color);
 	}
 }
 
@@ -157,7 +157,7 @@ h2 {
 	}
 
 	50% {
-		color: var(--primary-color);
+		color: var(--special-color);
 	}
 }
 
@@ -185,7 +185,7 @@ h2 {
 		gap: 1em;
 
 		.lysia {
-			color: var(--primary-color);
+			color: var(--special-color);
 		}
 
 		h2 {
@@ -199,7 +199,7 @@ h2 {
 
 		h2 {
 			font-family: var(--font-family-special);
-			color: var(--primary-color);
+			color: var(--special-color);
 			font-size: 2em;
 			margin-top: 0;
 		}

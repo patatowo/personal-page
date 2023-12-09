@@ -119,9 +119,11 @@
 			margin: 0 auto;
 			justify-content: space-around;
 			padding-top: 2.7em;
-			padding-left: 0;
+			padding-left: 3em;
+			padding-right: 3em;
 			padding-bottom: 3em;
 			gap: 6em;
+
 
 			.item {
 				border-radius: 15px;
@@ -131,8 +133,8 @@
 				padding-right: 3em;
 				height: 3em;
 				width: 3em;
-				background-color: #9d9864;
-				fill: var(--primary-color);
+				background-color: var(--primary-color);
+				fill: var(--special-color);
 			}
 		}
 	}
