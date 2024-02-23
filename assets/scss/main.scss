@@ -1,34 +1,31 @@
-@use './fonts.scss';
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Nunito&family=Vollkorn&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Nunito&family=Vollkorn&display=swap');
 
 :root {
 	--fg-color: black;
 	--bg-color: white;
 
-	--primary-color: #889675;
-	--secondary-color: #7c3d1a;
-	--background-color: #f4e1d4;
-	--special-color: #636f52;
+	--primary-color: #f7f2ec;
+	--secondary-color: #7d765c;
+	--background-color: #ffffff;
+	--special-color: #af877b;
+	--idk-color: #dabeb0;
 
-	--font-family: 'Nunito', sans-serif;
-	--font-family-special: 'Lora', serif;
-
-
-
+	--font-family: "Nunito", sans-serif;
+	--font-family-special: "Lora", serif;
 }
 
 body {
-
 	font-family: var(--font-family);
 	font-size: 18px;
 	background-color: var(--background-color);
 
 	h1 {
 		font-weight: normal;
-
 	}
 
 	h2 {
 		font-weight: normal;
-
 	}
 }
